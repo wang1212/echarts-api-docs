@@ -1,6 +1,5 @@
 # Apache ECharts APIs 文档
 
-![LICENSE](https://badgen.net/github/license/wang1212/echarts-api-docs)
 ![LAST COMMIT](https://badgen.net/github/last-commit/wang1212/echarts-api-docs?label=last%20update)
 
 ![Banner](./static/img/facebook_cover_photo_2.png)
