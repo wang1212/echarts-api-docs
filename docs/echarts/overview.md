@@ -8,4 +8,5 @@ sidebar_position: 1
 
 ## 相关资料
 
-- [官方文档](https://ecomfe.github.io/zrender-doc/public/)
+- [官方文档](https://echarts.apache.org/)
+- [社区资源](https://github.com/ecomfe/awesome-echarts)
