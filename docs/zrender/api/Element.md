@@ -60,6 +60,14 @@ el.onmouseover = function () {
 
 元素实例的状态集合（状态是一个元素实例的属性集合）。
 
+### stateProxy
+
+`stateProxy?: (stateName: string, targetStates?: string[]) => ElementState`
+
+[_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L429)
+
+元素实例的状态代理，可以通过状态名称动态生成状态对象。ZRender 首先会尝试通过 `stateProxy()` 获取元素的状态对象，其次才会访问 `states`。
+
 ### stateTransition
 
 `stateTransition: ElementAnimateConfig`
@@ -76,9 +84,29 @@ el.onmouseover = function () {
 
 元素实例当前已经应用的状态名称列表。
 
+### ensureState()
+
+`ensureState(name: string) => ElementState`
+
+[_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L814)
+
+确保状态对象存在（不存在就创建一个空的状态对象）。
+
+参数：
+
+| 名称 | 类型     | 默认值 | 描述     |
+| :--- | :------- | :----- | :------- |
+| name | `string` |        | 状态名称 |
+
+返回值：
+
+| 名称  | 类型                                                                                  | 描述                       |
+| :---- | :------------------------------------------------------------------------------------ | :------------------------- |
+| state | [`ElementState`](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L268:13) | 参数 `name` 对应的状态对象 |
+
 ### useState()
 
-`useState(stateName: string, keepCurrentStates?: boolean, noAnimation?: boolean, forceUseHoverLayer?: boolean)`
+`useState(stateName: string, keepCurrentStates?: boolean, noAnimation?: boolean, forceUseHoverLayer?: boolean) => ElementState`
 
 [_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L837)
 
