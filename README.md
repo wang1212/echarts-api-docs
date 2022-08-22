@@ -1,6 +1,6 @@
 # Apache ECharts APIs Docs
 
-![LAST COMMIT](https://badgen.net/github/last-commit/wang1212/echarts-api-docs?label=last%20update)
+![LAST COMMIT](https://badgen.net/github/last-commit/wang1212/echarts-api-docs/main?label=last%20update)
 
 ![Banner](./static/img/facebook_cover_photo_2.png)
 
