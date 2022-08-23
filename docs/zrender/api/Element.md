@@ -6,11 +6,11 @@ tags:
   - Element
 ---
 
-# `.Element`
+# .Element
 
 ZRender 的 `Element` 元素类。
 
-[_查看源码_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts)
+[_查看源码_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L293)
 
 > [官方 APIs 文档](https://ecomfe.github.io/zrender-doc/public/api.html#zrenderelement)
 
@@ -86,7 +86,7 @@ el.onmouseover = function () {
 
 ### ensureState()
 
-`ensureState(name: string) => ElementState`
+`ensureState(name: string): ElementState`
 
 [_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L814)
 
@@ -106,7 +106,7 @@ el.onmouseover = function () {
 
 ### useState()
 
-`useState(stateName: string, keepCurrentStates?: boolean, noAnimation?: boolean, forceUseHoverLayer?: boolean) => ElementState`
+`useState(stateName: string, keepCurrentStates?: boolean, noAnimation?: boolean, forceUseHoverLayer?: boolean): ElementState`
 
 [_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L837)
 

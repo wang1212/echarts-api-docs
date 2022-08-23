@@ -9,4 +9,4 @@ sidebar_position: 2
 
 # zrenderInstance
 
-ZRender 实例相关 APIs。
+`ZRender` 实例相关 APIs。
