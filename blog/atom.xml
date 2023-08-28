@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://wang1212.github.io/echarts-api-docs/blog</id>
-    <title>Apache ECharts APIs 文档 Blog</title>
+    <title>Apache ECharts APIs Doc Blog</title>
     <updated>2022-08-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://wang1212.github.io/echarts-api-docs/blog"/>
-    <subtitle>Apache ECharts APIs 文档 Blog</subtitle>
+    <subtitle>Apache ECharts APIs Doc Blog</subtitle>
     <icon>https://wang1212.github.io/echarts-api-docs/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Welcome]]></title>
