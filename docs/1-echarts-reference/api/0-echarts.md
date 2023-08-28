@@ -4,7 +4,6 @@ description: ECharts 模块直接暴露的 APIs
 tags:
   - ECharts
   - Module
-sidebar_position: 1
 ---
 
 # echarts
@@ -15,11 +14,13 @@ ECharts 模块直接暴露的 APIs。
 
 > [官方 APIs 文档](https://echarts.apache.org/zh/api.html#echarts)
 
-### use()
+## 扩展
+
+### `use()`
 
 :::tip
 
-`use()` 方法在官方文档中的描述比较简单，主要案例是用来做*按需加载*，实际上这是 ECharts 的核心**扩展机制**。对于 ECharts 能力的定制和扩展，官方的解决方案就是基于 `use()` API 实现。
+`use()` 方法在官方文档中的描述比较简单，主要案例是用来做_按需加载_，实际上这是 ECharts 的核心**扩展机制**。对于 ECharts 能力的定制和扩展，官方的解决方案就是基于 `use()` API 实现。
 
 :::
 
@@ -45,13 +46,13 @@ echarts.use((extensionRegisters: EChartsExtensionInstallRegisters) => {
 });
 ```
 
-## extensionRegisters
+### **`extensionRegisters`**
 
-这是一系列扩展相关的 APIs。
+这是 `use()` API 用来注册一系列扩展功能的接口。
 
 [_查看源码 (v5.0.1+)_](https://github.com/apache/echarts/blob/5.3.3/src/extension.ts#L47)
 
-### registerPreprocessor()
+### `registerPreprocessor()`
 
 :::tip
 
@@ -83,7 +84,7 @@ echarts.use((extensionRegisters: EChartsExtensionInstallRegisters) => {
 });
 ```
 
-### registerAction()
+### `registerAction()`
 
 :::info
 
@@ -122,7 +123,7 @@ echarts.use((extensionRegisters: EChartsExtensionInstallRegisters) => {
 ecIns.dispatchAction({ type: 'testaction' /* ...rest payload data */ });
 ```
 
-### registerUpdateLifecycle()
+### `registerUpdateLifecycle()`
 
 `registerUpdateLifecycle<T extends keyof LifecycleEvents>(name: T, cb: (...args: LifecycleEvents[T]) => void)`
 
@@ -161,7 +162,7 @@ echarts.use((extensionRegisters: EChartsExtensionInstallRegisters) => {
 - [registerPostInit()](#registerpostinit)
 - [registerPostUpdate()](#registerpostupdate)
 
-### registerPostInit()
+### `registerPostInit()`
 
 `registerPostInit(postInitFunc: PostIniter)`
 
@@ -199,7 +200,7 @@ echarts.use((extensionRegisters: EChartsExtensionInstallRegisters) => {
 
 - [registerUpdateLifecycle()](#registerupdatelifecycle)
 
-### registerPostUpdate()
+### `registerPostUpdate()`
 
 `registerPostUpdate(postUpdateFunc: PostUpdater)`
 
@@ -238,3 +239,9 @@ echarts.use((extensionRegisters: EChartsExtensionInstallRegisters) => {
 相关
 
 - [registerUpdateLifecycle()](#registerupdatelifecycle)
+
+### **`api`**
+
+这是用来在 `use()` API 注册的一系列扩展的回调函数中获取部分 ECharts 实例信息的接口。
+
+[_查看源码 (v5.0.1+)_](https://github.com/apache/echarts/blob/5.3.3/src/core/ExtensionAPI.ts#L54)

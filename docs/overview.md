@@ -9,7 +9,7 @@ sidebar_position: 1
 
 :::danger 如何确认一个 API 是否可以安全使用？
 
-要确认一个**未在官方文档中提及**的 API 是否可以**安全使用**，可以通过在[官方仓库中提 Issues](https://github.com/apache/echarts/issues) 询问核心维护人员（但通常效率很低），其次可以通过分析源码得到一个大致的结论（例如一些修饰符 `private`、`public` 等等，以及该 API 在源码中被引用的场景和情况）。一般来说，为了避免外部代码不兼容的情况出现，固定依赖（ECharts）的版本是一个较好的方案。
+要确认一个**未在官方文档中提及**的 API 是否可以**安全使用**，可以通过在[官方仓库中提 issues](https://github.com/apache/echarts/issues/17313) 询问核心维护人员（但通常效率很低），其次可以通过分析源码得到一个大致的结论（例如一些修饰符 `private`、`public` 等等，以及该 API 在源码中被引用的场景和情况）。一般来说，为了避免外部代码不兼容的情况出现，固定依赖（ECharts）的版本是一个较好的方案。
 
 :::
 
@@ -25,13 +25,13 @@ Apache ECharts 是一个基于 JavaScript 的开源可视化图表库，可免�
 
 :::tip 更快的扩展 ECharts 能力
 
-在不修改源代码的情况下，以尽可能符合 ECharts 架构设计的方式快速扩展其能力（来不及等待 `Pull Request` 被批准合并）
+在不修改源代码的情况下，以尽可能符合 ECharts 架构设计的方式快速扩展其能力。
 
 :::
 
 ## 版权许可
 
-首先，[ECharts 基于 Apache License 2.0 ](https://github.com/apache/echarts/blob/master/LICENSE) 开源，[ZRender 基于 BSD 3-Clause License](https://github.com/ecomfe/zrender/blob/master/LICENSE) 开源，本文档中引用的源代码需要注明出处（附上链接）。
+首先，[ECharts 基于 Apache License 2.0](https://github.com/apache/echarts/blob/master/LICENSE) 开源，[ZRender 基于 BSD 3-Clause License](https://github.com/ecomfe/zrender/blob/master/LICENSE) 开源，本文档中引用的源代码需要注明出处（附上链接）。
 
 ![CC BY-NC 4.0](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png) 本项目文档内容采用[知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议](http://creativecommons.org/licenses/by-nc-sa/4.0/)进行许可。
 
@@ -43,6 +43,6 @@ Apache ECharts 是一个基于 JavaScript 的开源可视化图表库，可免�
 
 :::caution 声明
 
-该项目**不用于广告盈利等其它商业目的**。
+该项目**不得用于广告盈利等其它商业目的**。
 
 :::

@@ -14,7 +14,7 @@ ZRender 的 `Element` 元素类。
 
 > [官方 APIs 文档](https://ecomfe.github.io/zrender-doc/public/api.html#zrenderelement)
 
-## state
+## 状态
 
 一系列与元素实例状态管理相关的 APIs。
 
@@ -52,7 +52,7 @@ el.onmouseover = function () {
 };
 ```
 
-### states
+### `states`
 
 `states: Dictionary<ElementState> = {}`
 
@@ -60,7 +60,7 @@ el.onmouseover = function () {
 
 元素实例的状态集合（状态是一个元素实例的属性集合）。
 
-### stateProxy
+### `stateProxy`
 
 `stateProxy?: (stateName: string, targetStates?: string[]) => ElementState`
 
@@ -68,7 +68,7 @@ el.onmouseover = function () {
 
 元素实例的状态代理，可以通过状态名称动态生成状态对象。ZRender 首先会尝试通过 `stateProxy()` 获取元素的状态对象，其次才会访问 `states`。
 
-### stateTransition
+### `stateTransition`
 
 `stateTransition: ElementAnimateConfig`
 
@@ -76,7 +76,7 @@ el.onmouseover = function () {
 
 元素实例的状态转换动画配置。
 
-### currentStates
+### `currentStates`
 
 `currentStates?: string[] = []`
 
@@ -84,7 +84,7 @@ el.onmouseover = function () {
 
 元素实例当前已经应用的状态名称列表。
 
-### ensureState()
+### `ensureState()`
 
 `ensureState(name: string): ElementState`
 
@@ -104,7 +104,7 @@ el.onmouseover = function () {
 | :---- | :------------------------------------------------------------------------------------ | :------------------------- |
 | state | [`ElementState`](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L268:13) | 参数 `name` 对应的状态对象 |
 
-### useState()
+### `useState()`
 
 `useState(stateName: string, keepCurrentStates?: boolean, noAnimation?: boolean, forceUseHoverLayer?: boolean): ElementState`
 
@@ -127,7 +127,7 @@ el.onmouseover = function () {
 | :---- | :------------------------------------------------------------------------------------ | :------------------------------ |
 | state | [`ElementState`](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L268:13) | 参数 `stateName` 对应的状态对象 |
 
-### useStates()
+### `useStates()`
 
 `useStates(states: string[], noAnimation?: boolean, forceUseHoverLayer?: boolean)`
 
@@ -143,7 +143,7 @@ el.onmouseover = function () {
 | noAnimation        | `boolean`  | `false` | 不需要动画过渡 |
 | forceUseHoverLayer | `boolean`  | `false` |                |
 
-### removeState()
+### `removeState()`
 
 `removeState(state: string)`
 
@@ -157,7 +157,7 @@ el.onmouseover = function () {
 | :---- | :------- | :----- | :------- |
 | state | `string` |        | 状态名称 |
 
-### clearStates()
+### `clearStates()`
 
 `clearStates(noAnimation?: boolean)`
 

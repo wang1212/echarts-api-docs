@@ -4,7 +4,6 @@ description: ECharts 实例相关的 APIs
 tags:
   - ECharts
   - Instance
-sidebar_position: 2
 ---
 
 # echartsInstance
@@ -15,7 +14,7 @@ sidebar_position: 2
 
 > [官方 APIs 文档](https://echarts.apache.org/zh/api.html#echartsInstance)
 
-### getModel()
+### `getModel()`
 
 :::danger
 
@@ -37,9 +36,9 @@ sidebar_position: 2
 
 相关
 
-- [GlobalModel APIs](GlobalModel.md)
+- [GlobalModel APIs](./2-GlobalModel.md)
 
-### getViewOfComponentModel()
+### `getViewOfComponentModel()`
 
 :::danger
 
@@ -65,7 +64,7 @@ sidebar_position: 2
 | :------------ | :------------------------------------------------------------------------------------------ | :--------------------------------------------- |
 | componentView | [`ComponentView`](https://github.com/apache/echarts/blob/5.3.3/src/view/Component.ts#L63:7) | 指定组件的 View 实例，`ComponentView` 只是基类 |
 
-### getViewOfSeriesModel()
+### `getViewOfSeriesModel()`
 
 :::danger
 

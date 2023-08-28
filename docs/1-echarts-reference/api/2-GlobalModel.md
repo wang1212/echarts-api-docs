@@ -8,11 +8,13 @@ tags:
 
 # .GlobalModel
 
-ECharts 的 `GlobalModel` 元素类。
+ECharts 的 `GlobalModel` 类。
 
 [_查看源码_](https://github.com/apache/echarts/blob/5.3.3/src/model/Global.ts#L154)
 
-### getOption()
+## 配置项
+
+### `getOption()`
 
 `getOption(): ECUnitOption`
 
@@ -26,7 +28,9 @@ ECharts 的 `GlobalModel` 元素类。
 | :----- | :--------------------------------------------------------------------------------------- | :----------------------- |
 | option | [`ECUnitOption`](https://github.com/apache/echarts/blob/5.3.3/src/util/types.ts#L519:13) | echarts 实例的所有配置项 |
 
-### getComponent()
+## 组件实例
+
+### `getComponent()`
 
 `getComponent(mainType: ComponentMainType, idx?: number): ComponentModel`
 
@@ -53,7 +57,7 @@ ECharts 的 `GlobalModel` 元素类。
 const result = ecModel.getComponent('tooltip', 0);
 ```
 
-### queryComponents()
+### `queryComponents()`
 
 `queryComponents(condition: QueryConditionKindB): ComponentModel[]`
 
@@ -82,7 +86,7 @@ const result = ecModel.queryComponents({
 });
 ```
 
-### findComponents()
+### `findComponents()`
 
 `findComponents(condition: QueryConditionKindA): ComponentModel[]`
 
@@ -116,7 +120,7 @@ let result = ecModel.findComponents(
 );
 ```
 
-### eachComponent()
+### `eachComponent()`
 
 `eachComponent<T>(mainType: string | QueryConditionKindA | EachComponentAllCallback, cb?: EachComponentInMainTypeCallback | T, context?: T)`
 
@@ -156,7 +160,9 @@ let result = ecModel.eachComponent(
 );
 ```
 
-### getSeries()
+## 系列实例
+
+### `getSeries()`
 
 `getSeries(): SeriesModel[]`
 
@@ -170,7 +176,7 @@ let result = ecModel.eachComponent(
 | :----------- | :------------------------------------------------------------------------------------------ | :------------------------------------------------ |
 | seriesModels | [`SeriesModel[]`](https://github.com/apache/echarts/blob/5.3.3/src/model/Series.ts#L664:11) | 系列组件的 Model 实例数组，`SeriesModel` 只是基类 |
 
-### getSeriesByType()
+### `getSeriesByType()`
 
 `getSeriesByType(subType: ComponentSubType): SeriesModel[]`
 
@@ -190,7 +196,7 @@ let result = ecModel.eachComponent(
 | :----------- | :------------------------------------------------------------------------------------------ | :------------------------------------------------ |
 | seriesModels | [`SeriesModel[]`](https://github.com/apache/echarts/blob/5.3.3/src/model/Series.ts#L664:11) | 系列组件的 Model 实例数组，`SeriesModel` 只是基类 |
 
-### eachSeries()
+### `eachSeries()`
 
 `eachSeries<T>(cb: (series: SeriesModel, rawSeriesIndex: number) => void, context?: T)`
 
@@ -205,7 +211,7 @@ let result = ecModel.eachComponent(
 | cb      | `(series: SeriesModel, rawSeriesIndex: number) => void` |             | 回调函数             |
 | context | `unknown`                                               | `undefined` | 回调函数的执行上下文 |
 
-### eachSeriesByType()
+### `eachSeriesByType()`
 
 `eachSeriesByType<T>(subType: ComponentSubType, cb: (series: SeriesModel, rawSeriesIndex: number) => void, context?: T)`
 
