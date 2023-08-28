@@ -2,6 +2,7 @@
 
 ![LICENSE](https://badgen.net/badge/license/CC%20BY-NC-SA%204.0/blue)
 ![LAST COMMIT](https://badgen.net/github/last-commit/wang1212/echarts-api-docs/main?label=last%20update)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ![Banner](./static/img/facebook_cover_photo_2.png)
 
@@ -10,13 +11,13 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 ### Installation
 
 ```bash
-$ npm install
+npm install
 ```
 
 ### Local Development
 
 ```bash
-$ npm run start
+npm run start
 ```
 
 This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
@@ -24,7 +25,7 @@ This command starts a local development server and opens up a browser window. Mo
 ### Build
 
 ```bash
-$ npm run build
+npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.

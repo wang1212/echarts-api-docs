@@ -2,6 +2,7 @@
 
 ![LICENSE](https://badgen.net/badge/license/CC%20BY-NC-SA%204.0/blue)
 ![LAST COMMIT](https://badgen.net/github/last-commit/wang1212/echarts-api-docs/main?label=last%20update)
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 ![Banner](./static/img/facebook_cover_photo_2.png)
 
@@ -10,13 +11,13 @@
 ### 安装
 
 ```bash
-$ npm install
+npm install
 ```
 
 ### 本地开发
 
 ```bash
-$ npm run start
+npm run start
 ```
 
 此命令启动本地开发服务器并打开浏览器窗口。大多数更改都会实时反映，而无需重新启动服务器。
@@ -24,7 +25,7 @@ $ npm run start
 ### 构建
 
 ```bash
-$ npm run build
+npm run build
 ```
 
 此命令将静态内容生成到 `build` 目录中，并且可以使用任何静态内容托管服务提供服务。
