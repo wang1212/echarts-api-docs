@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apache ECharts APIs 文档',
-  tagline: '深入使用与理解 ECharts、ZRender',
+  title: 'Apache ECharts APIs Doc',
+  tagline: '深入理解 ECharts、ZRender',
   url: 'https://wang1212.github.io/',
   baseUrl: '/echarts-api-docs/',
   onBrokenLinks: 'throw',
@@ -29,6 +29,11 @@ const config = {
     // locales: ['en'],
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
+  },
+
+  // https://docusaurus.io/docs/markdown-features/diagrams
+  markdown: {
+    mermaid: true,
   },
 
   presets: [
@@ -63,7 +68,8 @@ const config = {
         language: ['en', 'zh'],
       },
     ],
-    // ['@docusaurus/theme-live-codeblock', {}],
+    ['@docusaurus/theme-live-codeblock', {}],
+    ['@docusaurus/theme-mermaid', {}],
   ],
 
   themeConfig:
@@ -156,6 +162,9 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      mermaid: {
+        theme: { light: 'neutral', dark: 'forest' },
       },
     }),
 };
