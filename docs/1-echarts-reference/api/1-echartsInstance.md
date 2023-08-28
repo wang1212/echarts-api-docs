@@ -36,7 +36,7 @@ tags:
 
 相关
 
-- [GlobalModel APIs](./2-GlobalModel.md)
+- [GlobalModel APIs](./GlobalModel.md)
 
 ### `getViewOfComponentModel()`
 
