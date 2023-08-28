@@ -128,11 +128,11 @@ const config = {
               },
               {
                 label: 'ECharts',
-                to: '/docs/echarts/overview',
+                to: '/docs/echarts-reference/overview',
               },
               {
                 label: 'ZRender',
-                to: '/docs/zrender/overview',
+                to: '/docs/zrender-reference/overview',
               },
             ],
           },
