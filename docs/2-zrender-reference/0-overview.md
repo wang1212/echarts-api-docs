@@ -1,7 +1,6 @@
 ---
 title: 概述
 description: About ZRender
-sidebar_position: 1
 ---
 
 # ZRender

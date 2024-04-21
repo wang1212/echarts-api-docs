@@ -3,12 +3,13 @@ title: .GlobalModel
 description: ECharts 的全局 Model 类
 tags:
   - ECharts
+  - Model
   - GlobalModel
 ---
 
 # .GlobalModel
 
-ECharts 的 `GlobalModel` 类。
+ECharts 的 `GlobalModel` 类，继承自 [`Model`](./Model.md) 类。
 
 [_查看源码_](https://github.com/apache/echarts/blob/5.3.3/src/model/Global.ts#L154)
 
@@ -27,6 +28,14 @@ ECharts 的 `GlobalModel` 类。
 | 名称   | 类型                                                                                     | 描述                     |
 | :----- | :--------------------------------------------------------------------------------------- | :----------------------- |
 | option | [`ECUnitOption`](https://github.com/apache/echarts/blob/5.3.3/src/util/types.ts#L519:13) | echarts 实例的所有配置项 |
+
+### `getTheme()`
+
+`getTheme(): Model`
+
+[_查看源码 (v5.0.0+)_](https://github.com/apache/echarts/blob/5.3.3/src/model/Global.ts#L545)
+
+获取当前 ECharts 实例配置的主题模型实例。
 
 ## 组件实例
 

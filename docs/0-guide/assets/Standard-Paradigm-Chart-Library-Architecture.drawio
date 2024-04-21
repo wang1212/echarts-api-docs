@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" modified="2023-08-28T12:25:07.233Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="qC6QPVMAY_6ni2GzxdU2" version="21.6.6" type="device">
+  <diagram name="第 1 页" id="yob3dGCxtpg70rrD5Ue3">
+    <mxGraphModel dx="1221" dy="782" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-2" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="234" y="271" width="702" height="354" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-1" value="ECharts (Lib)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="258" y="544" width="656" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-3" value="Extension" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="258" y="421" width="521" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-4" value="Bugfixes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="794" y="421" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-7" value="use() API" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B5739D;" vertex="1" parent="1">
+          <mxGeometry x="521" y="498" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.369;entryY=0.787;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FFB570;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="826" y="492" as="sourcePoint" />
+            <mxPoint x="826" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-9" value="patch-package" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFB570;" vertex="1" parent="1">
+          <mxGeometry x="848" y="498" width="82" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-10" value="Theme" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="258" y="348" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-11" value="Helper" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="553" y="348" width="268" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-12" value="Events" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="835" y="348" width="79" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-13" value="ECharts-like APIs" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="258" y="291" width="656" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-14" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.369;entryY=0.787;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#B5739D;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="501" y="492" as="sourcePoint" />
+            <mxPoint x="501" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-15" value="Standard Paradigm Chart Library Architecture" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="234" y="638" width="275" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-16" value="feature" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="861" y="639" width="75" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="9aAnwDCAIPFcvbBArzSv-17" value="business" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="773" y="639" width="75" height="28" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

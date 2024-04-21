@@ -1,0 +1,86 @@
+<mxfile host="Electron" modified="2023-08-22T06:04:12.885Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.6.8 Chrome/114.0.5735.289 Electron/25.5.0 Safari/537.36" etag="8q5QneNY0o9YHjj_Q5EN" version="21.6.8" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1915" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="qPojI85lpEUor3rwiCEp-58" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-560" y="360" width="270" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" target="qPojI85lpEUor3rwiCEp-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-230" y="420" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-46" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-227.5" y="190" width="357" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qPojI85lpEUor3rwiCEp-0" target="qPojI85lpEUor3rwiCEp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-0" value="设定 token 集合&lt;br&gt;（某种特定主题）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-578" y="157" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qPojI85lpEUor3rwiCEp-1" target="qPojI85lpEUor3rwiCEp-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qPojI85lpEUor3rwiCEp-1" target="qPojI85lpEUor3rwiCEp-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-1" value="Standard Chart" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-768" y="207" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qPojI85lpEUor3rwiCEp-4" target="qPojI85lpEUor3rwiCEp-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-4" value="编辑/添加&lt;br&gt;自定义token" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-578" y="267" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qPojI85lpEUor3rwiCEp-6" target="qPojI85lpEUor3rwiCEp-44">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-232" y="250" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-6" value="token集合" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-378" y="207" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qPojI85lpEUor3rwiCEp-44" target="qPojI85lpEUor3rwiCEp-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-44" value="setThemeConfigWithToken&lt;br&gt;(themename, themeConfig, tokens)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-167" y="220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-47" value="name: &#39;mobile-app-light&#39;,&lt;br&gt;themeConfig: defaultThemeConfig.shouchao,&lt;br&gt;parsers:[parser1, parser2, ...],&lt;br&gt;use: setCurrentThemeName.bind(null, &#39;mobile-app-light&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-210" y="340" width="315" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-50" value="name: &#39;mobile-app-dark&#39;,&lt;br&gt;themeConfig: defaultThemeConfig.shouchao,&lt;br&gt;parsers:[parser1, parser2, ...],&lt;br&gt;use: setCurrentThemeName.bind(null, &#39;mobile-app-dark&#39;)" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-210" y="420" width="315" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-51" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-52" y="502" as="sourcePoint" />
+            <mxPoint x="-52" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-54" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;theme&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-250" y="180" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-55" value="registerTheme(mobileAppLight&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-540" y="390" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-57" value="init(dom, mobileAppLight.name&lt;span style=&quot;background-color: initial;&quot;&gt;)&lt;/span&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-540" y="480" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-61" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="qPojI85lpEUor3rwiCEp-60" target="qPojI85lpEUor3rwiCEp-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-60" value="dom" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-768" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qPojI85lpEUor3rwiCEp-62" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;standard-chart&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-557" y="351" width="100" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

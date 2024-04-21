@@ -20,7 +20,7 @@ ECharts 模块直接暴露的 APIs。
 
 :::tip
 
-`use()` 方法在官方文档中的描述比较简单，主要案例是用来做_按需加载_，实际上这是 ECharts 的核心**扩展机制**。对于 ECharts 能力的定制和扩展，官方的解决方案就是基于 `use()` API 实现。
+`use()` 方法在[官方文档](https://echarts.apache.org/zh/api.html#echarts.use)中的描述比较简单，主要用例是做_按需加载_，实际上这是 ECharts 的**核心扩展机制**。对于 ECharts 能力的定制和扩展，官方的解决方案就是基于 `use()` API 实现。
 
 :::
 

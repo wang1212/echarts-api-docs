@@ -1,18 +1,18 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Apache ECharts APIs Doc',
+  title: 'Apache ECharts APIs Guide',
   tagline: '深入理解 ECharts、ZRender',
   url: 'https://wang1212.github.io/',
   baseUrl: '/echarts-api-docs/',
+  favicon: 'img/favicon.png',
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -33,6 +33,7 @@ const config = {
 
   // https://docusaurus.io/docs/markdown-features/diagrams
   markdown: {
+    format: 'detect',
     mermaid: true,
   },
 
@@ -166,11 +167,11 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
-        theme: lightCodeTheme,
-        darkTheme: darkCodeTheme,
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
       },
       mermaid: {
-        theme: { light: 'neutral', dark: 'forest' },
+        theme: { light: 'default', dark: 'dark' },
       },
     }),
 };

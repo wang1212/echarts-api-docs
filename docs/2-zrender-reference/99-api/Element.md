@@ -104,6 +104,22 @@ el.onmouseover = function () {
 | :---- | :------------------------------------------------------------------------------------ | :------------------------- |
 | state | [`ElementState`](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L268:13) | 参数 `name` 对应的状态对象 |
 
+### `getState()`
+
+`getState(name: string)`
+
+[_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L806)
+
+获取指定的状态对象定义。
+
+### `hasState()`
+
+`hasState()`
+
+[_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L799)
+
+判断元素当前状态是否不为空。
+
 ### `useState()`
 
 `useState(stateName: string, keepCurrentStates?: boolean, noAnimation?: boolean, forceUseHoverLayer?: boolean): ElementState`
@@ -170,3 +186,43 @@ el.onmouseover = function () {
 | 名称        | 类型      | 默认值  | 描述           |
 | :---------- | :-------- | :------ | :------------- |
 | noAnimation | `boolean` | `false` | 不需要动画过渡 |
+
+## 动画
+
+> [官方 APIs 文档](https://ecomfe.github.io/zrender-doc/public/api.html#zrenderanimatable)
+
+### `animate()`
+
+`animate(key?: string, loop?: boolean, allowDiscreteAnimation?: boolean)`
+
+[_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L1462)
+
+为元素设置动画。
+
+相关
+
+- [Animator](./Animator.md)
+
+### `animateTo()`
+
+`animateTo(target: Props, cfg?: ElementAnimateConfig, animationProps?: MapToType<Props, boolean>)`
+
+[_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L1560)
+
+将元素过渡到目标状态。
+
+### `animateFrom()`
+
+`animateFrom(target: Props, cfg: ElementAnimateConfig, animationProps?: MapToType<Props, boolean>)`
+
+[_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L1570)
+
+将元素从目标状态过渡到当前状态。
+
+### `stopAnimation()`
+
+`stopAnimation(scope?: string, forwardToLast?: boolean)`
+
+[_查看源码 (v5.0.0+)_](https://github.com/ecomfe/zrender/blob/5.3.2/src/Element.ts#L1518)
+
+停止动画。
