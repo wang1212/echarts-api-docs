@@ -421,7 +421,7 @@ const extensionRegisters = {
 
 :::tip
 
-要了解扩展 APIs 中的一些生命周期 Hook 的执行顺序，可以查看 [ECharts 的程序执行流程](./3-PROGRAM_FLOW.md#echarts)。
+要了解扩展 APIs 中的一些生命周期 Hook 的执行顺序，可以查看 [ECharts 的程序执行流程](./2-PROGRAM_FLOW.md#echarts)。
 
 :::
 

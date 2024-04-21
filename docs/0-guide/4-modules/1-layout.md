@@ -175,7 +175,7 @@ export function install(registers: EChartsExtensionInstallRegisters) {
 
 :::tip
 
-相关内容可以参考[插件机制中的扩展 APIs](../4-echarts-plugin.md#扩展-apis)。
+相关内容可以参考[插件机制中的扩展 APIs](../3-echarts-plugin.md#扩展-apis)。
 
 :::
 

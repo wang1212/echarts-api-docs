@@ -6,7 +6,7 @@
 
 :::info
 
-了解技术细节，请参考 [ECharts 的插件机制](../4-echarts-plugin.md)。
+了解技术细节，请参考 [ECharts 的插件机制](../3-echarts-plugin.md)。
 
 :::
 

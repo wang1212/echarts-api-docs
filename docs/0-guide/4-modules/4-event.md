@@ -350,6 +350,6 @@ el.onmouseover = function () {
 
 :::info
 
-相关 APIs 可以参考 [Element](../../zrender-reference/api/Element.md#状态)。
+相关 APIs 可以参考 [Element](../../2-zrender-reference/99-api/Element.md#状态)。
 
 :::

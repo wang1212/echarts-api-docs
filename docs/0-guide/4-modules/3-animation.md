@@ -157,8 +157,8 @@ el.animateTo({
 
 动画相关的 APIs 也可以参考以下文档：
 
-- [Element](../../zrender-reference/api/Element.md#动画)
-- [Animator](../../zrender-reference/api/Animator.md)
+- [Element](../../2-zrender-reference/99-api/Element.md#动画)
+- [Animator](../../2-zrender-reference/99-api/Animator.md)
 
 :::
 
@@ -250,6 +250,6 @@ rect.stateTransition = {
 
 交互状态动画相关的 APIs 也可以参考以下文档：
 
-- [Element](../../zrender-reference/api/Element.md#状态)
+- [Element](../../2-zrender-reference/99-api/Element.md#状态)
 
 :::

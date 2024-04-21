@@ -10,7 +10,7 @@
 
 ## 数据层设计
 
-根据 [ECharts 的架构设计](../2-ARCHITECTURE.md#echarts)其遵循经典的 MVC 设计模式，其中数据层（Model）的设计是本节关注的重点。
+根据 [ECharts 的架构设计](../1-ARCHITECTURE.md#echarts)其遵循经典的 MVC 设计模式，其中数据层（Model）的设计是本节关注的重点。
 
 ```mermaid
 ---
@@ -188,11 +188,11 @@ data.diff(oldData)
 
 数据处理相关的常用 APIs 可以参考以下文档：
 
-- [Model](../../ecahrts-reference/api/Model.md)
-- [GlobalModel](../../ecahrts-reference/api/GlobalModel.md)
-- [ComponentModel](../../ecahrts-reference/api/ComponentModel.md)
-- [SeriesModel](../../ecahrts-reference/api/SeriesModel.md)
-- [SeriesData](../../ecahrts-reference/api/SeriesData.md)
+- [Model](../../1-echarts-reference/99-api/Model.md)
+- [GlobalModel](../../1-echarts-reference/99-api/GlobalModel.md)
+- [ComponentModel](../../1-echarts-reference/99-api/ComponentModel.md)
+- [SeriesModel](../../1-echarts-reference/99-api/SeriesModel.md)
+- [SeriesData](../../1-echarts-reference/99-api/SeriesData.md)
 
 :::
 
@@ -208,7 +208,7 @@ data.diff(oldData)
 
 :::tip
 
-相关内容可以参考[插件机制中的扩展 APIs](../4-echarts-plugin.md#扩展-apis)。
+相关内容可以参考[插件机制中的扩展 APIs](../3-echarts-plugin.md#扩展-apis)。
 
 :::
 
