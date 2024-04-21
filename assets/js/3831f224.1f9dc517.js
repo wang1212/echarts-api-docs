@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkecharts_api_docs=self.webpackChunkecharts_api_docs||[]).push([[5260],{7030:e=>{e.exports=JSON.parse('{"permalink":"/echarts-api-docs/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
